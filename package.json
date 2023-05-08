@@ -1,0 +1,10 @@
+{
+  "name": "weevolve-nuxt-components",
+  "licence": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "peerDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "postcss": "^8.3.5"
+  }
+}
