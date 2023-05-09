@@ -7,7 +7,7 @@
 </template>
 <script>
 import Vue from 'vue'
-import { id } from '~/utils/string'
+import { id } from '../../utils/string'
 
 export default Vue.component('FormField', {
 	props: {

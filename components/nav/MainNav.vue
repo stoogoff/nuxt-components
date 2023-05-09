@@ -1,7 +1,7 @@
 <template>
 	<nav-bar v-bind="$attrs">
 		<template #title>
-			<nuxt-link to="/">WILD</nuxt-link>
+			<nuxt-link to="/">{{ title }}</nuxt-link>
 		</template>
 		<template #buttons>
 			<nav-button icon="ellipsis" @click="toggleNavbar()" />
@@ -21,17 +21,21 @@
 </template>
 <script>
 import Vue from 'vue'
-import { character, user } from '~/state'
-
-const CHARACTERS = 1
-const ACCOUNT = 4
 
 export default Vue.component('MainNav', {
 	props: {
 		transparent: {
 			type: Boolean,
 			default: false,
-		}
+		},
+		menuItems: {
+			type: Array,
+			required: true,
+		},
+		title: {
+			type: String,
+			required: true,
+		},
 	},
 
 	data() {
@@ -54,74 +58,6 @@ export default Vue.component('MainNav', {
 	},
 
 	computed: {
-		menuItems() {
-			let menuItems = [
-				{
-					title: 'Home',
-					href: '/',
-					icon: 'home',
-				},
-				{
-					title: 'Characters',
-					href: '/characters',
-					icon: 'characters',
-				},
-				{
-					title: 'Tarot',
-					href: '/tarot',
-					icon: 'tarot',
-					menuItems: [
-						{ title: 'Control', href: '/tarot/control' },
-						{ title: 'Focus', href: '/tarot/focus' },
-						{ title: 'Passion', href: '/tarot/passion' },
-						{ title: 'Strength', href: '/tarot/strength' },
-						{ title: 'Major Arcana', href: '/tarot/major-arcana' },
-					]
-				},
-				{
-					title: 'Dream Master',
-					href: '/dream-master',
-					icon: 'book-open-variant',
-				},
-				{
-					title: 'Account',
-					href: '/account',
-					icon: 'account-circle',
-				},
-			]
-
-			// add characters
-			const characters = character.all()
-
-			menuItems[CHARACTERS].menuItems = characters.map(character => ({
-				title: character.name || `Unnamed character (${character.id})`,
-				href: `/characters/${character.id}`,
-			}))
-
-			menuItems[CHARACTERS].menuItems.push({
-				title: 'New Character',
-				href: '/characters/new',
-				separator: true,
-			})
-
-			// update account options depending on user state
-			const loggedInUser = user.getLoggedInUser()
-
-			if(!loggedInUser || loggedInUser.isAnonymous) {
-				menuItems[ACCOUNT].menuItems = [
-					{ title: 'Login', href: '/account/login' },
-					{ title: 'Register', href: '/account/register' },
-				]
-			}
-			else {
-				menuItems[ACCOUNT].menuItems = [
-					{ title: 'Logout', href: '/account/logout'},
-				]
-			}
-
-			return menuItems
-		},
-
 		background() {
 			return this.transparent ? 'bg-transparent' : 'bg-gray-600'
 		},

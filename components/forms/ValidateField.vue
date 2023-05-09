@@ -5,7 +5,7 @@
 </template>
 <script>
 import Vue from 'vue'
-import { validate } from '~/utils/validators'
+import { validate } from '../../utils/validators'
 
 export default Vue.component('ValidateField', {
 	props: {

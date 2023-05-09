@@ -1,7 +1,7 @@
 <template>
 	<button
 		:class="classList"
-		class="btn border font-sans font-bold uppercase text-sm text-center px-6 py-3 mr-1 mb-1 rounded shadow outline-none focus:outline-none ease-linear transition-all duration-150"
+		class="btn border font-sans font-bold uppercase text-sm text-center mr-1 mb-1 rounded shadow outline-none focus:outline-none ease-linear transition-all duration-150"
 		:disabled="disabled"
 		@click="$emit('click')"
 	>
@@ -49,6 +49,9 @@ export default Vue.component('ButtonAction', {
 
 			if(this.small) {
 				classList.push('px-3 py-1 text-xs')
+			}
+			else {
+				classList.push('px-6 py-3')
 			}
 
 			if(this.disabled) {

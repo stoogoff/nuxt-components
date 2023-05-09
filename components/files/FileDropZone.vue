@@ -22,7 +22,7 @@
 
 <script>
 
-import Vue, { PropType } from 'vue'
+import Vue from 'vue'
 
 export default Vue.component('FileDropZone', {
 	props: {
