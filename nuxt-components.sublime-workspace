@@ -147,6 +147,70 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/stoo/Dev/component-test/tailwind.config.js",
+			"settings":
+			{
+				"buffer_size": 75,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "we-ui"
+					},
+					"BgAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAvAAAAAAAAABgAAAB3ZWV2b2x2ZS1udXh0LWNvbXBvbmVudHMvAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAMQAAAAAAAAAAAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgAAAAAAAABGAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "components/forms/ValidateField.vue",
+			"settings":
+			{
+				"buffer_size": 794,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "/Users/stoo/Dev/component-test/package.json",
+			"settings":
+			{
+				"buffer_size": 520,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "components/IconView.vue",
+			"settings":
+			{
+				"buffer_size": 7230,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					125,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI4CAAAAAAAAjgIAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAjwIAAAAAAACPAgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -189,10 +253,52 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/stoo/Dev/nuxt-components"
+		"/Users/stoo/Dev/nuxt-components",
+		"/Users/stoo/Dev/nuxt-components/components",
+		"/Users/stoo/Dev/nuxt-components/components/buttons",
+		"/Users/stoo/Dev/nuxt-components/components/files",
+		"/Users/stoo/Dev/nuxt-components/components/forms",
+		"/Users/stoo/Dev/nuxt-components/components/tabs",
+		"/Users/stoo/Dev/nuxt-components/components/transitions",
+		"/Users/stoo/Dev/nuxt-components/utils",
+		"/Users/stoo/Dev/component-test",
+		"/Users/stoo/Dev/component-test/assets",
+		"/Users/stoo/Dev/component-test/components",
+		"/Users/stoo/Dev/component-test/layouts",
+		"/Users/stoo/Dev/component-test/pages",
+		"/Users/stoo/Dev/component-test/utils"
 	],
 	"file_history":
 	[
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/utils/list.js",
+		"/Users/stoo/Dev/component-test/nuxt.config.js",
+		"/Users/stoo/Dev/component-test/pages/form.vue",
+		"/Users/stoo/Dev/nuxt-components/package.json",
+		"/Users/stoo/Dev/component-test/package.json",
+		"/Users/stoo/Dev/component-test/assets/styles.css",
+		"/Users/stoo/Dev/component-test/layouts/default.vue",
+		"/Users/stoo/Dev/component-test/pages/index.vue",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/forms/FormField.vue",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/utils/string.js",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/utils/file.js",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/utils/validators.js",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/forms/ValidateField.vue",
+		"/Users/stoo/Dev/component-test/utils/validators.js",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/buttons/ButtonAction.vue",
+		"/Users/stoo/Dev/nuxt-components/components/buttons/ButtonAction.vue",
+		"/Users/stoo/Dev/component-test/tailwind.config.js",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/AlertView.vue",
+		"/Users/stoo/Dev/nuxt-components/assets/styles.css",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/nav/MainNav.vue",
+		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/files/FileDropZone.vue",
+		"/Users/stoo/Dev/component-test/.editorconfig",
+		"/Users/stoo/Dev/nuxt-components/components/files/FileDropZone.vue",
+		"/Users/stoo/Dev/nuxt-components/components/forms/PasswordInput.vue",
+		"/Users/stoo/Dev/nuxt-components/components/IconView.vue",
+		"/Users/stoo/Dev/nuxt-components/components/forms/CheckBox.vue",
+		"/Users/stoo/Dev/nuxt-components/components/buttons/IconAction.vue",
+		"/Users/stoo/Dev/nuxt-components/nuxt.js",
+		"/Users/stoo/Dev/nuxt-components/components/AlertView.vue",
 		"/Users/stoo/Dev/aegean-app/pages/adversaries/_id.vue",
 		"/Users/stoo/Dev/aegean-app/components/transitions/OverlayFade.vue",
 		"/Users/stoo/Dev/aegean-app/assets/styles.css",
@@ -291,46 +397,18 @@
 		"/Users/stoo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Parchment/src/wild/public-trial.md",
 		"/Users/stoo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Parchment/src/gaslightclub/css/_variables.sass",
 		"/Users/stoo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Parchment/src/action-potential/personas/bruiser.md",
-		"/Users/stoo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Parchment/src/action-potential/tpl/main.html",
-		"/Users/stoo/Documents/Parchment/src/alien/adventure.md",
-		"/Users/stoo/Documents/Parchment/src/wild/public-trial.md",
-		"/Users/stoo/Documents/RPGs (iCloud)/WILD/playtest.md",
-		"/Users/stoo/Aegean/README.md",
-		"/Users/stoo/Aegean/src/setting/adventures/curse-of-the-golden-bull.md",
-		"/Users/stoo/Aegean/src/chapters/core-rules/00-introduction.md",
-		"/Users/stoo/Aegean/TODO.md",
-		"/Users/stoo/Aegean/src/web/index.md",
-		"/Users/stoo/Aegean/build/publish.js",
-		"/Users/stoo/Aegean/build/aws.json",
-		"/Users/stoo/Dev/hunterhoose/build/aws.json",
-		"/Users/stoo/Aegean/build/live.json",
-		"/Users/stoo/Aegean/src/web/pdf-promise.md",
-		"/Users/stoo/Aegean/src/setting/adventures/nesaean-boar-01.md",
-		"/Users/stoo/Aegean/src/rules/downtime/bolster-income.md",
-		"/Users/stoo/Aegean/build/targets.json",
-		"/Users/stoo/Aegean/src/setting/pregens/xanthippe-soldier.md",
-		"/Users/stoo/Aegean/src/setting/pregens/hierax-hunter.md",
-		"/Users/stoo/Aegean/src/chapters/01-overview.md",
-		"/Users/stoo/Aegean/src/setting/adventures/tabletop-scotland.md",
-		"/Users/stoo/Aegean/html/charsheet.html",
-		"/Users/stoo/Aegean/src/setting/adversaries/monsters/automaton-spider.md",
-		"/Users/stoo/Aegean/src/rules/skills/lore.md",
-		"/Users/stoo/Aegean/src/setting/equipment/weapons/makhaira.md",
-		"/Users/stoo/Aegean/src/setting/equipment/weapons/xiphos.md",
-		"/Users/stoo/Aegean/src/setting/equipment/livestock/boar.md",
-		"/Users/stoo/Aegean/src/setting/adversaries/monsters/lamia.md",
-		"/Users/stoo/Aegean/src/setting/adversaries/monsters/bronze-bull.md",
-		"/Users/stoo/Aegean/src/quickstart/blurb.md"
+		"/Users/stoo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Parchment/src/action-potential/tpl/main.html"
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
 		"height": 130.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -338,6 +416,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"error",
+			"success",
+			"file",
+			"upload",
+			"delete",
+			"file",
+			"success",
+			"error",
+			"Name",
+			"name",
+			"indigo",
+			"navItems",
+			"PropType",
+			"character",
+			"icon",
+			"<icon-view"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -359,12 +453,145 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/stoo/Dev/component-test/tailwind.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/forms/ValidateField.vue",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 318.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/stoo/Dev/component-test/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "components/IconView.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 46.0
+		"height": 37.0
 	},
 	"input":
 	{
@@ -409,7 +636,7 @@
 	"project": "nuxt-components.sublime-project",
 	"replace":
 	{
-		"height": 88.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -418,6 +645,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"buttonac",
+				"nuxt-components/components/buttons/ButtonAction.vue"
+			],
+			[
+				"buttona",
+				"nuxt-components/components/buttons/ButtonAction.vue"
+			],
 			[
 				"nuxt",
 				"nuxt.config.js"
@@ -921,14 +1156,6 @@
 			[
 				"hunter",
 				"src/rules/talents/hunters-quarry.md"
-			],
-			[
-				"merch",
-				"src/rules/talents/merchant.md"
-			],
-			[
-				"merchant",
-				"src/setting/careers/merchant.md"
 			]
 		],
 		"width": 0.0
