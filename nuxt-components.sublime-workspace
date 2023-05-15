@@ -165,19 +165,8 @@
 						"characters": "we-ui"
 					},
 					"BgAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAvAAAAAAAAABgAAAB3ZWV2b2x2ZS1udXh0LWNvbXBvbmVudHMvAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAMQAAAAAAAAAAAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADMAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALgAAAAAAAABGAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAuAAAAAAAAAEYAAAAAAAAAAAAAAAAA8L8"
 				]
-			]
-		},
-		{
-			"file": "components/forms/ValidateField.vue",
-			"settings":
-			{
-				"buffer_size": 794,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
 			]
 		},
 		{
@@ -186,16 +175,13 @@
 			{
 				"buffer_size": 520,
 				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-			]
+			}
 		},
 		{
 			"file": "components/IconView.vue",
 			"settings":
 			{
-				"buffer_size": 7230,
+				"buffer_size": 9619,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
@@ -207,7 +193,53 @@
 					"left_delete",
 					null,
 					"AQAAAI4CAAAAAAAAjgIAAAAAAAABAAAACQ",
-					"AQAAAAAAAAABAAAAjwIAAAAAAACPAgAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACPAgAAAAAAAI8CAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "console.log("
+					},
+					"DQAAAAEcAAAAAAAAAhwAAAAAAAAAAAAAAhwAAAAAAAACHAAAAAAAAAYAAAB0aHJvdyACHAAAAAAAAAMcAAAAAAAAAAAAAAMcAAAAAAAABBwAAAAAAAAAAAAABBwAAAAAAAAFHAAAAAAAAAAAAAAFHAAAAAAAAAYcAAAAAAAAAAAAAAYcAAAAAAAABxwAAAAAAAAAAAAABxwAAAAAAAAIHAAAAAAAAAAAAAAIHAAAAAAAAAkcAAAAAAAAAAAAAAkcAAAAAAAAChwAAAAAAAAAAAAAChwAAAAAAAALHAAAAAAAAAAAAAALHAAAAAAAAAwcAAAAAAAAAAAAAAwcAAAAAAAADRwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABxwAAAAAAAABHAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAAC0cAAAAAAAALhwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALRwAAAAAAAAtHAAAAAAAAP///////+9/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAPcbAAAAAAAA+BsAAAAAAAAAAAAA+BsAAAAAAAD+GwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9xsAAAAAAAD3GwAAAAAAAP///////+9/"
+				],
+				[
+					16,
+					1,
+					"paste",
+					null,
+					"AQAAAP4bAAAAAAAASyUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/hsAAAAAAAD+GwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					6,
+					"right_delete",
+					null,
+					"BgAAAPgbAAAAAAAA+BsAAAAAAAABAAAACfgbAAAAAAAA+BsAAAAAAAABAAAACfgbAAAAAAAA+BsAAAAAAAABAAAACfgbAAAAAAAA+BsAAAAAAAABAAAACfgbAAAAAAAA+BsAAAAAAAABAAAACfgbAAAAAAAA+BsAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAA+BsAAAAAAAD4GwAAAAAAAAAAAAAAAAAA"
 				]
 			]
 		}
@@ -401,7 +433,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -493,38 +525,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "components/forms/ValidateField.vue",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 794,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								481,
-								481
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 318.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "/Users/stoo/Dev/component-test/package.json",
 					"semi_transient": false,
 					"settings":
@@ -555,20 +555,21 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "components/IconView.vue",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7230,
+						"buffer_size": 9619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								654,
-								654
+								7160,
+								7160
 							]
 						],
 						"settings":
@@ -579,10 +580,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 214.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -591,7 +592,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -636,7 +637,7 @@
 	"project": "nuxt-components.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
