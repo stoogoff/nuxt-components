@@ -12,7 +12,7 @@ const components = [
 
 export default function() {
 	this.nuxt.hook('components:dirs', dirs => {
-		componens.forEach(comp => {
+		components.forEach(comp => {
 			dirs.push({
 				path: join(__dirname, comp),
 				prefix: 'we',
