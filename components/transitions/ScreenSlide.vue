@@ -7,7 +7,7 @@
 </template>
 <script>
 import Vue from 'vue'
-import SlideUp from '../SlideUp.vue'
+import SlideUp from './SlideUp.vue'
 
 export default Vue.component('ScreenSlide', {
 	components: {
