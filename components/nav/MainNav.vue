@@ -22,6 +22,8 @@
 <script>
 import Vue from 'vue'
 import NavBar from './Navbar.vue'
+import NavButton from './NavButton.vue'
+import MenuList from './MenuList.vue'
 
 export default Vue.component('MainNav', {
 	props: {
@@ -33,6 +35,8 @@ export default Vue.component('MainNav', {
 
 	components: {
 		'nav-bar': NavBar,
+		'nav-button': NavButton,
+		'menu-list': MenuList,
 	},
 
 	data() {
