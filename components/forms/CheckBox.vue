@@ -1,6 +1,6 @@
 <template>
 	<div class="flex cursor-pointer text-gray-500" @click="toggle">
-		<icon-view :icon="icon" />
+		<we-icon-view :icon="icon" />
 		<span class="ml-2">{{ label }}</span>
 	</div>
 </template>

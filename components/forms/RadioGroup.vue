@@ -4,7 +4,7 @@
 		:class="{ 'text-blue-500': isChecked, 'text-grey-500': !isChecked }"
 		@click="toggle"
 	>
-		<icon-view :icon="icon" />
+		<we-icon-view :icon="icon" />
 		<span v-if="label" class="ml-2">{{ label }}</span>
 	</div>
 </template>

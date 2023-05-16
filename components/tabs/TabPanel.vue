@@ -1,5 +1,5 @@
 <template>
-	<section v-show="active" class="py-4">
+	<section v-show="active" class="tab-pabel py-4">
 		<slot />
 	</section>
 </template>

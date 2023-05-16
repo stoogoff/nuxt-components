@@ -6,7 +6,7 @@
 			class="group"
 		>
 			<nuxt-link :to="item.href">
-				<nav-item :icon="item.icon">{{ item.title }}</nav-item>
+				<we-nav-item :icon="item.icon">{{ item.title }}</we-nav-item>
 			</nuxt-link>
 
 			<ul

@@ -1,5 +1,5 @@
 <template>
-	<form-field :label="label" :message="message" :error="error" v-slot="field">
+	<we-form-field :label="label" :message="message" :error="error" v-slot="field">
 		<div class="relative flex w-full flex-wrap items-stretch">
 			<span class="h-full leading-snug font-normal absolute text-center text-gray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
 				<slot name="prepend"></slot>
@@ -17,7 +17,7 @@
 				<slot name="append"></slot>
 			</span>
 		</div>
-	</form-field>
+	</we-form-field>
 </template>
 <script>
 import Vue from 'vue'

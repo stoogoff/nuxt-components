@@ -1,5 +1,5 @@
 <template>
-	<form-field :label="label" :message="message" :error="error" v-slot="field">
+	<we-form-field :label="label" :message="message" :error="error" v-slot="field">
 		<div class="relative flex w-full flex-wrap items-stretch">
 			<input
 				:id="field.id"
@@ -14,7 +14,7 @@
 				<icon-view :icon="icon" />
 			</span>
 		</div>
-	</form-field>
+	</we-form-field>
 </template>
 <script>
 import Vue from 'vue'
