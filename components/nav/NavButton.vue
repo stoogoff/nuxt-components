@@ -5,11 +5,12 @@
 		:disabled="disabled"
 		@click="$emit('click')"
 	>
-		<span class="nav-button" :class="{ 'disabled': disabled }"><we-icon-view :icon="icon" /></span>
+		<span class="nav-button" :class="{ 'disabled': disabled }"><icon-view :icon="icon" /></span>
 	</button>
 </template>
 <script>
 import Vue from 'vue'
+import IconView from '../IconView.vue'
 
 export default Vue.component('NavButton', {
 	props: {
@@ -21,6 +22,10 @@ export default Vue.component('NavButton', {
 			type: Boolean,
 			default: false,
 		}
+	},
+
+	components: {
+		'icon-view': IconView,
 	},
 })
 </script>

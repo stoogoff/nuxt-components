@@ -10,6 +10,7 @@
 </template>
 <script>
 import Vue from 'vue'
+import IconView from '../IconView.vue'
 
 export default Vue.component('NavItem', {
 	props: {
@@ -21,6 +22,10 @@ export default Vue.component('NavItem', {
 			type: Boolean,
 			default: false,
 		},
+	},
+
+	components: {
+		'icon-view': IconView,
 	},
 
 	methods: {

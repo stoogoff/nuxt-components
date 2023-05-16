@@ -1,26 +1,27 @@
 <template>
-	<we-nav-bar v-bind="$attrs">
+	<nav-bar v-bind="$attrs">
 		<template #title>
 			<nuxt-link to="/"><slot /></nuxt-link>
 		</template>
 		<template #buttons>
-			<we-nav-button icon="ellipsis" @click="toggleNavbar()" />
+			<nav-button icon="ellipsis" @click="toggleNavbar()" />
 		</template>
 		<transition name="fade">
 			<div
 				v-if="navbarOpen"
 				class="mobile-menu absolute top-14 left-4 right-4 md:hidden block rounded shadow-lg"
 			>
-				<we-menu-list :menu-items="menuItems" />
+				<menu-list :menu-items="menuItems" />
 			</div>
 		</transition>
 		<div class="desktop-menu hidden md:flex flex-grow items-center bg-transparent shadow-none">
-			<we-menu-list :menu-items="menuItems" />
+			<menu-list :menu-items="menuItems" />
 		</div>
-	</we-nav-bar>
+	</nav-bar>
 </template>
 <script>
 import Vue from 'vue'
+import NavBar from './Navbar.vue'
 
 export default Vue.component('MainNav', {
 	props: {
@@ -28,6 +29,10 @@ export default Vue.component('MainNav', {
 			type: Array,
 			required: true,
 		},
+	},
+
+	components: {
+		'nav-bar': NavBar,
 	},
 
 	data() {

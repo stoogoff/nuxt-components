@@ -9,12 +9,17 @@
 </template>
 <script>
 import Vue from 'vue'
+import LoadingSpinner from '../LoadingSpinner'
 
 export default Vue.component('ImageUpload', {
 	props: {
 		file: {
 			required: true,
 		},
+	},
+
+	components: {
+		'loading-spinner': LoadingSpinner,
 	},
 
 	fetch() {

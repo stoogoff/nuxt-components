@@ -6,6 +6,7 @@
 </template>
 <script>
 import Vue from 'vue'
+import IconView from './IconView.vue'
 
 export default Vue.component('AlertView', {
 	props: {
@@ -18,6 +19,10 @@ export default Vue.component('AlertView', {
 			type: String,
 			default: '',
 		},
+	},
+
+	components: {
+		'icon-view': IconView,
 	},
 
 	computed: {

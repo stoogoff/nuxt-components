@@ -1,11 +1,12 @@
 <template>
 	<div class="flex cursor-pointer text-gray-500" @click="toggle">
-		<we-icon-view :icon="icon" />
+		<icon-view :icon="icon" />
 		<span class="ml-2">{{ label }}</span>
 	</div>
 </template>
 <script>
 import Vue from 'vue'
+import IconView from '../IconView.vue'
 
 export default Vue.component('CheckBox', {
 	props: {
@@ -17,6 +18,10 @@ export default Vue.component('CheckBox', {
 			type: Boolean,
 			default: false,
 		},
+	},
+
+	components: {
+		'icon-view': IconView,
 	},
 
 	computed: {

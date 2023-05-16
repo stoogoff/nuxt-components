@@ -8,3 +8,8 @@
 		<div class="2xl:block hidden p-2 bg-red-500">XX-Large</div>
 	</div>
 </template>
+<script>
+import Vue from 'vue'
+
+export default Vue.component('ResponsiveDebug', {})
+</script>

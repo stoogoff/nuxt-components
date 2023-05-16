@@ -1,5 +1,5 @@
 <template>
-	<we-form-field :label="label" :message="message" :error="error" v-slot="field">
+	<form-field :label="label" :message="message" :error="error" v-slot="field">
 		<div class="relative flex w-full flex-wrap items-stretch">
 			<input
 				:id="field.id"
@@ -14,10 +14,12 @@
 				<icon-view :icon="icon" />
 			</span>
 		</div>
-	</we-form-field>
+	</form-field>
 </template>
 <script>
 import Vue from 'vue'
+import FormField from './FormField.vue'
+import IconView from '../IconView.vue'
 
 export default Vue.component('PasswordInput', {
 	props: {
@@ -45,6 +47,11 @@ export default Vue.component('PasswordInput', {
 			type: String,
 			default: '',
 		},
+	},
+
+	components: {
+		'form-field': FormField,
+		'icon-view': IconView,
 	},
 
 	data() {

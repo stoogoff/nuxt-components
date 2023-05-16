@@ -1,5 +1,5 @@
 <template>
-	<we-form-field :label="label" :message="message" :error="error" v-slot="field">
+	<form-field :label="label" :message="message" :error="error" v-slot="field">
 		<div class="relative flex w-full flex-wrap items-stretch">
 			<span class="h-full leading-snug font-normal absolute text-center text-gray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
 				<slot name="prepend"></slot>
@@ -17,10 +17,11 @@
 				<slot name="append"></slot>
 			</span>
 		</div>
-	</we-form-field>
+	</form-field>
 </template>
 <script>
 import Vue from 'vue'
+import FormField from './FormField.vue'
 
 export default Vue.component('TextInput', {
 	props: {
@@ -48,6 +49,10 @@ export default Vue.component('TextInput', {
 			type: String,
 			default: '',
 		},
+	},
+
+	components: {
+		'form-field': FormField,
 	},
 
 	computed: {

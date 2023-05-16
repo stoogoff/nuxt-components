@@ -7,3 +7,8 @@
 		Loading
 	</div>
 </template>
+<script>
+import Vue from 'vue'
+
+export default Vue.component('LoadingSpinner', {})
+</script>

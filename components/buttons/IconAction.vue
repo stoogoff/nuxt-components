@@ -10,6 +10,7 @@
 </template>
 <script>
 import Vue from 'vue'
+import IconView from '../IconView.vue'
 
 export default Vue.component('IconAction', {
 	props: {
@@ -29,6 +30,10 @@ export default Vue.component('IconAction', {
 			type: String,
 			required: true,
 		},
+	},
+
+	components: {
+		'icon-view': IconView,
 	},
 
 	computed: {

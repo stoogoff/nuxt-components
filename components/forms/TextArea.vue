@@ -1,5 +1,5 @@
 <template>
-	<we-form-field :label="label" :message="message" :error="error" v-slot="field">
+	<form-field :label="label" :message="message" :error="error" v-slot="field">
 		<textarea
 			:id="field.id"
 			:value="value"
@@ -9,10 +9,11 @@
 			:placeholder="placeholder"
 			@input="$emit('input', $event.target.value)"
 		/>
-	</we-form-field>
+	</form-field>
 </template>
 <script>
 import Vue from 'vue'
+import FormField from './FormField.vue'
 
 export default Vue.component('TextArea', {
 	props: {
@@ -40,6 +41,10 @@ export default Vue.component('TextArea', {
 			type: String,
 			default: '',
 		},
+	},
+
+	components: {
+		'form-field': FormField,
 	},
 
 	computed: {

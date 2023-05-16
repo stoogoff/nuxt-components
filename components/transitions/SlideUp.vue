@@ -3,7 +3,11 @@
 		<slot />
 	</transition>
 </template>
+<script>
+import Vue from 'vue'
 
+export default Vue.component('SlideUp', {})
+</script>
 <style>
 .slide-up-enter-active, .slide-up-leave-active {
 	transition: transform .5s;

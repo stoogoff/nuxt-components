@@ -4,12 +4,13 @@
 		:class="{ 'text-blue-500': isChecked, 'text-grey-500': !isChecked }"
 		@click="toggle"
 	>
-		<we-icon-view :icon="icon" />
+		<icon-view :icon="icon" />
 		<span v-if="label" class="ml-2">{{ label }}</span>
 	</div>
 </template>
 <script>
 import Vue from 'vue'
+import IconView from '../IconView.vue'
 
 export default Vue.component('RadioGroup', {
 	props: {
@@ -23,6 +24,10 @@ export default Vue.component('RadioGroup', {
 			type: [String, Number, Boolean],
 			required: true,
 		},
+	},
+
+	components: {
+		'icon-view': IconView,
 	},
 
 	computed: {

@@ -6,7 +6,7 @@
 			class="group"
 		>
 			<nuxt-link :to="item.href">
-				<we-nav-item :icon="item.icon">{{ item.title }}</we-nav-item>
+				<nav-item :icon="item.icon">{{ item.title }}</nav-item>
 			</nuxt-link>
 
 			<ul
@@ -26,6 +26,7 @@
 </template>
 <script>
 import Vue from 'vue'
+import NavItem from './NavItem.vue'
 
 export default Vue.component('MenuList', {
 	props: {
@@ -33,6 +34,10 @@ export default Vue.component('MenuList', {
 			type: Array,
 			required: true,
 		},
+	},
+
+	components: {
+		'nav-item': NavItem,
 	},
 })
 </script>
