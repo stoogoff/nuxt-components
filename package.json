@@ -3,8 +3,19 @@
   "licence": "MIT",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "peerDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.3",
     "postcss": "^8.4.17"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.22.7",
+    "@vue/test-utils": "1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "26.6",
+    "jest": "26.6",
+    "vue-jest": "3"
   }
 }
