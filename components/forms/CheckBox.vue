@@ -1,7 +1,13 @@
 <template>
-	<div class="flex cursor-pointer text-gray-500" @click="toggle">
+	<div
+		class="checkbox flex cursor-pointer"
+		:class="{
+			'disabled': disabled,
+		}"
+		@click="toggle"
+	>
 		<icon-view :icon="icon" />
-		<span class="ml-2">{{ label }}</span>
+		<span class="ml-2 checkbox-label">{{ label }}</span>
 	</div>
 </template>
 <script>
@@ -15,6 +21,10 @@ export default Vue.component('CheckBox', {
 			required: true,
 		},
 		value: {
+			type: Boolean,
+			default: false,
+		},
+		disabled: {
 			type: Boolean,
 			default: false,
 		},
@@ -32,6 +42,8 @@ export default Vue.component('CheckBox', {
 
 	methods: {
 		toggle() {
+			if(this.disabled) return
+
 			this.$emit('input', !this.value)
 		},
 	},
