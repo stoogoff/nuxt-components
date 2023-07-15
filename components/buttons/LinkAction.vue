@@ -1,17 +1,18 @@
 <template>
-	<span>
+	<span
+		class="btn inline-block border font-sans font-bold uppercase text-sm text-center px-6 py-3 mr-1 mb-1 rounded shadow outline-none focus:outline-none ease-linear transition-all duration-150"
+		:class="classList"
+	>
 		<a
 			v-if="isExternal"
-			class="btn inline-block border font-sans font-bold uppercase text-sm text-center px-6 py-3 mr-1 mb-1 rounded shadow outline-none focus:outline-none ease-linear transition-all duration-150"
-			:class="classList"
+			class="block"
 			:disabled="disabled"
 			:href="to">
 			<slot />
 		</a>
 		<nuxt-link
 			v-else
-			class="btn inline-block border font-sans font-bold uppercase text-sm text-center px-6 py-3 mr-1 mb-1 rounded shadow outline-none focus:outline-none ease-linear transition-all duration-150"
-			:class="classList"
+			class="block"
 			:disabled="disabled"
 			:to="to">
 			<slot />
