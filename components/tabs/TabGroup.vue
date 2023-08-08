@@ -3,7 +3,13 @@
 		<div class="text-sm font-medium text-center border-b tab-group">
 			<ul class="flex flex-wrap -mb-px">
 				<li class="mr-2" v-for="(tab, idx) in tabs" :key="`tab_${idx}`">
-					<span class="tab-item cursor-pointer inline-block p-4 rounded-t-lg border-b-2 border-transparent tab" :class="{ active: tab.active, disabled: tab.disabled }" @click="activate(tab)">
+					<span
+						class="tab-item cursor-pointer inline-block p-4 rounded-t-lg border-b-2 border-transparent tab"
+						:class="{ active: tab.active, disabled: tab.disabled }"
+						@keypress.enter="activate(tab)"
+						@keypress.space.prevent="activate(tab)"
+						@click="activate(tab)"
+					>
 						{{ tab.title }}
 					</span>
 				</li>
