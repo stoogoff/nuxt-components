@@ -1,7 +1,7 @@
 {
   "name": "we-ui",
   "licence": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "private": true,
   "scripts": {
     "test": "jest"
@@ -10,7 +10,7 @@
     "@nuxtjs/tailwindcss": "^5.3.3",
     "postcss": "^8.4.17"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/preset-env": "^7.22.7",
     "@vue/test-utils": "1",
     "babel-core": "^7.0.0-bridge.0",
